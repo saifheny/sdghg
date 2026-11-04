@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="512" height="512">
+  <defs>
+    <clipPath id="cardClip">
+      <rect x="12" y="12" width="224" height="224" rx="52"/>
+    </clipPath>
+  </defs>
+
+  <!-- ظل نيو-بروتاليست صلب -->
+  <rect x="20" y="20" width="224" height="224" rx="52" fill="#1B1B1B"/>
+
+  <!-- الخلفية المقسمة لأربع خدمات رئيسية بألوان هوية وصلة -->
+  <g clip-path="url(#cardClip)">
+    <!-- أعلى يسار: النقل والشحن (تركواز نعناعي) -->
+    <rect x="12" y="12" width="112" height="112" fill="#4BD4BE"/>
+    <!-- أعلى يمين: الصيانة والصنايعية (أصفر شمسي دافئ) -->
+    <rect x="124" y="12" width="112" height="112" fill="#FFE26A"/>
+    <!-- أسفل يسار: المنازل والشركات والتوريد (سماوي هادئ) -->
+    <rect x="12" y="124" width="112" height="112" fill="#55B9DB"/>
+    <!-- أسفل يمين: التعليم والدروس (لافندر) -->
+    <rect x="124" y="124" width="112" height="112" fill="#9C89FF"/>
+
+    <!-- الفواصل الحبرية بين الخدمات -->
+    <line x1="124" y1="12" x2="124" y2="236" stroke="#1B1B1B" stroke-width="10"/>
+    <line x1="12" y1="124" x2="236" y2="124" stroke="#1B1B1B" stroke-width="10"/>
+
+    <!-- 1) رمز الصيانة (مفتاح عدة - أعلى يمين) -->
+    <g transform="translate(154, 28)" stroke="#1B1B1B" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" fill="#FAF4EC">
+      <path d="M46 14a16 16 0 0 1-21 21L11 49a6 6 0 0 1-8.5-8.5L16.5 26A16 16 0 0 1 38 6l-8 8 6 6 8-8z"/>
+    </g>
+
+    <!-- 2) رمز النقل والعفش (شاحنة سريعة - أعلى يسار) -->
+    <g transform="translate(26, 33)" stroke="#1B1B1B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="8" width="34" height="24" rx="4" fill="#FAF4EC"/>
+      <path d="M38 15h12l8 9v8H38z" fill="#FFE26A"/>
+      <circle cx="15" cy="34" r="6" fill="#1B1B1B"/>
+      <circle cx="46" cy="34" r="6" fill="#1B1B1B"/>
+    </g>
+
+    <!-- 3) رمز المنازل والتشطيبات (بيت دافئ - أسفل يسار) -->
+    <g transform="translate(28, 154)" stroke="#1B1B1B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 26L28 7l22 19v21a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4z" fill="#FAF4EC"/>
+      <rect x="21" y="30" width="14" height="21" rx="2" fill="#FFE26A"/>
+    </g>
+
+    <!-- 4) رمز التعليم والخدمات الذكية (كتاب مفتوح - أسفل يمين) -->
+    <g transform="translate(154, 158)" stroke="#1B1B1B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M28 10C22 6 12 6 4 9v32c8-3 18-3 24 1 6-4 16-4 24-1V9c-8-3-18-3-24 1z" fill="#FAF4EC"/>
+      <line x1="28" y1="10" x2="28" y2="42"/>
+    </g>
+  </g>
+
+  <!-- الإطار الخارجي السميك -->
+  <rect x="12" y="12" width="224" height="224" rx="52" fill="none" stroke="#1B1B1B" stroke-width="12"/>
+
+  <!-- شارة الوسط: رمز المساعدة والترابط الإنساني (وصلة) -->
+  <circle cx="129" cy="129" r="54" fill="#1B1B1B"/>
+  <circle cx="124" cy="124" r="54" fill="#FA6B63" stroke="#1B1B1B" stroke-width="10"/>
+
+  <!-- قلب المساعدة وتصافح الأيدي المترابطة في المركز -->
+  <path d="M124 156c-2 0-4.2-.8-6-2.3C101 139.8 89 128.4 89 114.5 89 103.5 97.6 95 108.2 95c6.4 0 12.1 3.1 15.8 8 3.7-4.9 9.4-8 15.8-8 10.6 0 19.2 8.5 19.2 19.5 0 13.9-12 25.3-29 39.2-1.8 1.5-4 2.3-6 2.3z"
+        fill="#FAF4EC" stroke="#1B1B1B" stroke-width="8" stroke-linejoin="round"/>
+  <!-- خط الوصلة/التصافح داخل القلب للدلالة المباشرة على التعاون والمساعدة -->
+  <path d="M103 110c1-5 4.5-8.5 9.5-9.5" fill="none" stroke="#1B1B1B" stroke-width="6" stroke-linecap="round"/>
+</svg>

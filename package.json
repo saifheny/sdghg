@@ -1,0 +1,23 @@
+{
+  "name": "wasla-secure-platform",
+  "version": "18.0.0",
+  "private": true,
+  "type": "module",
+  "description": "وصلة — منصة الخدمات المصرية المبنية بـ TypeScript + React 18 + حماية CSP صارمة",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.7.2"
+  }
+}

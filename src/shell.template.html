@@ -1,0 +1,162 @@
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="sp" viewBox="0 0 24 24"><path d="M12 2c.6 5.4 4.6 9.4 10 10-5.4.6-9.4 4.6-10 10-.6-5.4-4.6-9.4-10-10 5.4-.6 9.4-4.6 10-10z"/></symbol>
+</svg>
+
+<!-- 1) شاشة البداية (ألوان مطفية دافئة ودخول فوري من غير انتظار) -->
+<section id="intro" class="screen on">
+  <span class="intro-deco d1"></span>
+  <span class="intro-deco d2"></span>
+  <span class="intro-deco d3"></span>
+  <span class="intro-deco d4"></span>
+  <div class="hero">
+    <div class="palette-dots" aria-hidden="true">
+      <i style="background:var(--coral)"></i>
+      <i style="background:var(--lav)"></i>
+      <i style="background:var(--mint)"></i>
+      <i style="background:var(--sun)"></i>
+      <i style="background:var(--sky)"></i>
+      <i style="background:var(--peach)"></i>
+    </div>
+    <div class="logo-box" id="intro-logo"><svg width="40" height="40" viewBox="0 0 24 24" fill="var(--ink)"><use href="#sp"/></svg></div>
+    <h1>أهلاً بيك في <span>وصلة</span></h1>
+    <p class="lead">محتاج صنايعي شاطر؟ عربية تنقل عفشك؟ مدرّس لولادك؟ نزّل طلبك في ثواني وهيوصل لأقرب ناس بتفهم في الشغلانة، ولو إنت صاحب صنعة أو خدمة قدّم عروضك واشتغل على طول.</p>
+    <div class="intro-pills">
+      <span class="intro-pill">نقل وعفش</span>
+      <span class="intro-pill">صيانة وصنايعية</span>
+      <span class="intro-pill">دروس وتعليم</span>
+      <span class="intro-pill">شركات وتوريدات</span>
+    </div>
+    <div class="intro-live-cards" id="intro-live-cards" aria-label="معاينة حية للطلبات والعروض"></div>
+    <div class="ctas">
+      <button class="btn coral cta" id="enter" type="button">ادخل اتفرج ع الموقع</button>
+      <button class="btn white cta" id="intro-google" type="button">
+        <svg width="22" height="22" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg>
+        سجّل بحساب جوجل
+      </button>
+    </div>
+    <p class="hint">تصفح براحتك من غير تعقيد، والتسجيل بجوجل مبياخدش ثواني.</p>
+  </div>
+  <div class="ribbon"><div class="track" id="trk"></div></div>
+</section>
+
+<!-- 2) تسجيل الدخول بحساب جوجل -->
+<section id="login" class="screen center">
+  <div class="card">
+    <div class="chead">
+      <button class="btn sq bkb" data-go="app" type="button" aria-label="رجوع"></button>
+      <b class="atitle">تسجيل الدخول</b>
+      <span class="stp">خطوة 1 من 2</span>
+    </div>
+    <div class="gbig">
+      <svg viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg>
+    </div>
+    <h2 style="text-align:center">كمّل بحساب جوجل بتاعك</h2>
+    <p class="sub" style="text-align:center">اختار حسابك وهتدخل على طول تكمّل بياناتك الأساسية وتبدأ.</p>
+    <div class="acl" id="acl"></div>
+    <button class="arow add" id="google" type="button">
+      <span class="aav plus">+</span>
+      <span class="atx"><b>فتح نافذة حسابات جوجل</b><small>اختار أي حساب جوجل مسجّل عندك</small></span>
+    </button>
+    <small class="fine">بناخد اسمك وإيميلك وصورتك من جوجل بس علشان نوثّق الحسابات الحقيقية.</small>
+  </div>
+</section>
+
+<!-- 3) استكمال التسجيل (الاسم + الموبايل + إجباري الموقع والإشعارات أول مرة بس) -->
+<section id="s1" class="screen center">
+  <div class="card wide">
+    <div class="chead">
+      <button class="btn sq bkb" data-go="app" type="button" aria-label="رجوع"></button>
+      <b class="atitle">كمّل تسجيل حسابك</b>
+      <span class="stp">خطوة 2 من 2</span>
+    </div>
+    <h2>عرّفنا بيك علشان نبدأ</h2>
+    <p class="sub">البيانات دي بتتطلب أول مرة بتسجّل فيها بس، والموقع هيتحدّث تلقائي كل أسبوع.</p>
+    <div class="names">
+      <div class="field"><label for="n1">الاسم الأول</label><input id="n1" placeholder="مثلاً: محمد" autocomplete="given-name"></div>
+      <div class="field"><label for="n2">الاسم التاني</label><input id="n2" placeholder="أحمد"></div>
+      <div class="field"><label for="n3">اللقب / العيلة</label><input id="n3" placeholder="حسن" autocomplete="family-name"></div>
+    </div>
+    <div class="field">
+      <div class="ph-label-row">
+        <label for="ph">رقم الموبايل المصري</label>
+        <span id="ph-carrier" class="carrier-badge"></span>
+      </div>
+      <input id="ph" class="ltr" type="tel" inputmode="tel" placeholder="01012345678" autocomplete="tel">
+    </div>
+    <div class="field">
+      <div class="ph-label-row">
+        <label>المحافظة والمركز / المدينة</label>
+        <button type="button" class="btn sm mint gps-autofill-btn" id="btn-auto-loc" data-a="autoFillObLoc">تحديد تلقائي من الـ GPS</button>
+      </div>
+      <div id="lb1"></div>
+    </div>
+    <div class="field">
+      <label for="a1">المنطقة أو الشارع أو القرية (اختياري)</label>
+      <input id="a1" placeholder="مثلاً: شارع الجلاء / الحي التالت">
+    </div>
+
+    <div class="field">
+      <label>تأكيد الموقع والتنبيهات السريعة</label>
+      <div class="perms-grid">
+        <div class="perm-card" id="perm-loc-card">
+          <div class="perm-head">
+            <span class="perm-ic" id="perm-loc-ic"></span>
+            <div>
+              <b>الموقع الجغرافي الدقيق</b>
+              <small id="perm-loc-txt">اضغط قبول وتفعيل لعرض أقرب الصنايعية والطلبات لمنطقتك.</small>
+            </div>
+          </div>
+          <button class="btn sm coral" id="btn-ob-loc" type="button">قبول وتفعيل الموقع</button>
+        </div>
+        <div class="perm-card" id="perm-push-card">
+          <div class="perm-head">
+            <span class="perm-ic" id="perm-push-ic"></span>
+            <div>
+              <b>إشعارات العروض والرسائل</b>
+              <small id="perm-push-txt">اضغط قبول وتفعيل لاستقبال تنبيهات العروض والردود فور وصولها.</small>
+            </div>
+          </div>
+          <button class="btn sm coral" id="btn-ob-push" type="button">قبول وتفعيل الإشعارات</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="err" id="e1"></div>
+    <button class="btn mint" id="next1" type="button">سجّل وادخل على وصلة</button>
+  </div>
+</section>
+
+<!-- 4) الموقع الرئيسي -->
+<section id="app" class="screen">
+  <div class="shell" id="shell">
+    <nav class="tabs" id="tabs" aria-label="التنقل السفلي"></nav>
+    <aside class="side" id="side">
+      <div class="brand"><b id="side-logo"></b>وصلة</div>
+      <div class="search">
+        <input id="q" type="search" placeholder="دوّر في القايمة..." aria-label="بحث في القائمة">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </div>
+      <nav class="nav" id="nav"></nav>
+      <div class="me">
+        <span class="av" id="av"></span>
+        <div><strong id="nm">زائر</strong><small id="em">بتتصفح من غير تسجيل</small></div>
+        <button class="btn sm white" id="out" type="button"></button>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="top">
+        <button class="btn sq" id="bk" style="display:none" type="button" aria-label="رجوع"></button>
+        <button class="btn tg" id="tg" type="button" aria-label="إظهار أو إخفاء القائمة الجانبية">
+          <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+        </button>
+        <h3 id="ttl">الرئيسية</h3>
+        <div id="top-extra" class="top-extra" style="display:none"></div>
+        <button class="btn sm coral top-nw" data-a="nw" type="button"></button>
+      </header>
+      <div id="view" class="view on"></div>
+    </main>
+  </div>
+</section>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /functions/
+Disallow: /src/
+Disallow: /scripts/
+
+Sitemap: https://story-97cf7.web.app/sitemap.xml
